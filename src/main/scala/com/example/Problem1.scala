@@ -3,9 +3,10 @@ package com.example
 /**
   * Created by shigeru on 16/03/30.
   */
-object Problem1 {
-  def main(args: Array[String]): Unit = {
-    println(Range(1,10).filter(x => (x % 5 == 0)||(x % 3 == 0)).sum)
-    println(Range(1,1000).filter(x => (x % 5 == 0)||(x % 3 == 0)).sum)
-  }
+object Problem1 extends App {
+  def sum35(n: Int) :Int =
+    Range(1, n).filter(x => (x % 5) == 0 || (x % 3) == 0).sum
+
+    println(sum35(10))
+    println(sum35(1000))
 }
