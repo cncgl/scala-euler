@@ -1,8 +1,5 @@
 import org.scalatest._
 
-/**
-  * Created by shigeru on 16/04/13.
-  */
 class Problem1Spec extends FlatSpec with Matchers {
 
   it should "23 when 10" in {
