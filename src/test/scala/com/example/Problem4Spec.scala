@@ -1,3 +1,5 @@
+package com.example
+
 import org.scalatest._
 
 class Problem4Spec extends FlatSpec with Matchers {
