@@ -8,7 +8,7 @@ package com.example
   * これらの数の差は 3025 - 385 = 2640 となる.
   * 同様にして, 最初の100個の自然数について二乗の和と和の二乗の差を求めよ.
   */
-object Problem6 extends App {
+object Problem0006 extends App {
 
   def sumSquare(a: Long) :Long = Math.pow((0L to a).sum, 2).toLong
   def squareSum(a: Long) :Long = (0L to a).map(x => x*x).sum

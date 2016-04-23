@@ -10,7 +10,7 @@ import scala.util.control.Breaks.{breakable, break}
   * a + b + c = 1000 となるピタゴラスの三つ組が一つだけ存在する.
   * これらの積 abc を計算しなさい.
   */
-object Problem9 extends App {
+object Problem0009 extends App {
   var a = 0
   var b = 0
   var c = 0

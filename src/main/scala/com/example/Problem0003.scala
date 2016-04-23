@@ -4,7 +4,7 @@ package com.example
   * 113195 の素因数は 5, 7, 13, 29 である.
   * 600851475143 の素因数のうち最大のものを求めよ.
   */
-object Problem3 extends App {
+object Problem0003 extends App {
   def factor(n: Long, p: Long): List[Long] =
     if (n < p * p) List(n)
     else if (n % p == 0) p :: factor( n / p, p)

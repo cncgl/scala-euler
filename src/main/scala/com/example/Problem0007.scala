@@ -5,7 +5,7 @@ import scala.util.control.Breaks
   * 素数を小さい方から6つ並べると 2, 3, 5, 7, 11, 13 であり, 6番目の素数は 13 である.
   * 10 001 番目の素数を求めよ.
   */
-object Problem7 extends App {
+object Problem0007 extends App {
 
   def from(n: Int): Stream[Int] = Stream.cons(n, from(n + 1))
   def sieve(xs: Stream[Int]): Stream[Int] =

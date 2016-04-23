@@ -9,7 +9,7 @@ import scala.util.control.Breaks
   * 数列の項の値が400万以下の, 偶数値の項の総和を求めよ.
   * Note:この問題は最近更新されました. お使いのパラメータが正しいかどうか確認してください.
   */
-object Problem2 {
+object Problem0002 {
   def main(args: Array[String]): Unit = {
     def fib(n: Int): BigInt = if (n < 2) n else fib(n -1) + fib(n - 2)
     def fibForm(a: BigInt, b: BigInt): Stream[BigInt] = a #:: fibForm(b, a+b)

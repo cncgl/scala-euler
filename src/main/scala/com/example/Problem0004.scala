@@ -5,7 +5,7 @@ package com.example
   * 2桁の数の積で表される回文数のうち, 最大のものは 9009 = 91 × 99 である.
   * では, 3桁の数の積で表される回文数の最大値を求めよ.
   */
-object Problem4 extends App {
+object Problem0004 extends App {
 
   def palindrome(n: Int) :Boolean = {
     val s = n.toString
