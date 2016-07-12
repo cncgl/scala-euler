@@ -22,6 +22,7 @@ import scala.util.control.Breaks.{break, breakable}
   *
   * では, 500個より多く約数をもつ最初の三角数はいくつか.
   */
+// TODO: 1485s かかるので要改良
 object Problem0012 extends App {
 
   def triangle(n: Long):Long = n * ( n + 1 ) / 2
